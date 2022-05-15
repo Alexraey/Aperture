@@ -225,7 +225,10 @@ header nav ul li:last-of-type a{
 .description a:hover:before{
     background-color: #fff;
 }
+
+
 /*section_3*/
+
 
 .fuji{
     background-image: url("../Images/IMAGEjap.jpg");
@@ -238,7 +241,7 @@ header nav ul li:last-of-type a{
     position: relative;
 }
 .fuji .container{
-    max-width: 287px;
+    max-width: 298px;
     margin: inherit;
 }
 .fuji .container h3{
@@ -258,4 +261,181 @@ header nav ul li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+
+
+/*section_4*/
+
+
+.costa_rica{
+    background-image: url("../Images/IMAGEcosta.jpg");
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 71px;
+    position: relative;
+}
+.costa_rica .container{
+    max-width: 298px;
+    margin: inherit;
+}
+.costa_rica .container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.costa_rica .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*section_5*/
+
+
+.clients{
+    background-color: black;
+    padding-top: 113px;
+    padding-bottom: 140px;
+    background-size: cover;
+    display: flex;
+}
+.clients .container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.clients .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.link_clients{
+    display: flex;
+    align-items: center;
+}
+.margin_clients{
+    margin-right: 109px;
+}
+
+
+/*section_6*/
+
+
+.nepal{
+    background-image: url("../Images/nepal.jpg");
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 71px;
+    position: relative;
+}
+.nepal .container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.nepal .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.nepal .container{
+    max-width: 298px;
+    margin: inherit;
+}
+
+
+/*section_7*/
+
+
+.help_photo{
+    background-color: black;
+    padding-top: 113px;
+    padding-bottom: 121px;
+    background-size: cover;
+    display: flex;
+}
+.help_photo .container h3{
+    max-width: 571px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.help_photo .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+.help_photo .container a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.help_photo .container a:before{
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 14px;
+    margin-right: 6px;
+    transition: 0.3s;
+}
+.help_photo .container a:hover{
+    background: #000;
+    color: #FFF;
+}
+.help_photo .container a:hover:before{
+    background-color: #fff;
 }

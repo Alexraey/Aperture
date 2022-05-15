@@ -84,7 +84,7 @@ header nav ul li:last-of-type a{
     max-width: 580px;
     margin: auto;
 }
-.main_banner ul{
+.list_item{
     display: flex;
     list-style: none;
     align-items: center;
@@ -92,14 +92,14 @@ header nav ul li:last-of-type a{
     right: 40px;
     bottom: 40px;
 }
-.main_banner ul li{
+.list_item li{
     font-family: 'Poppins';
     font-size: 12px;
     line-height: 12px;
     color: white;
     margin-left: 16px;
 }
-.main_banner ul li:before{
+.list_item li:before{
     content: "";
     display: inline-block;
     background-image: url('../Images/icon3.svg');
@@ -109,19 +109,24 @@ header nav ul li:last-of-type a{
     position: relative;
     top: 6px;
 }
-.main_banner ul li:nth-child(2):before{
+.list_item li:nth-child(2):before{
     background-image: url('../Images/icon1.svg');
 }
-.main_banner ul li:nth-child(3):before{
+.list_item li:nth-child(3):before{
     background-image: url('../Images/icon2.svg');
     margin-right: 7px;
     width: 32px;
 }
-.main_banner ul li:last-of-type:before{
+.list_item li:last-of-type:before{
     background-image: url('../Images/icon4.svg');
     margin-right: 5px;
     width: 10px;
 }
+
+
+/*section_2*/
+
+
 .what_we_do{
     background-color: black;
     padding-top: 112px;
@@ -201,6 +206,7 @@ header nav ul li:last-of-type a{
     border-radius: 14px;
     display: inline-flex;
     text-decoration: none;
+    transition: 0.3s;
 }
 .description a:before{
     content: "";
@@ -210,8 +216,46 @@ header nav ul li:last-of-type a{
     background-color: black;
     border-radius: 14px;
     margin-right: 6px;
+    transition: 0.3s;
 }
 .description a:hover{
-    background: black;
+    background: #000;
+    color: #FFF;
+}
+.description a:hover:before{
+    background-color: #fff;
+}
+/*section_3*/
+
+.fuji{
+    background-image: url("../Images/IMAGEjap.jpg");
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 71px;
+    position: relative;
+}
+.fuji .container{
+    max-width: 287px;
+    margin: inherit;
+}
+.fuji .container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     color: #FFFFFF;
+}
+.fuji .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }

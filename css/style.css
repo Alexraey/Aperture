@@ -434,7 +434,7 @@ header nav ul li:last-of-type a{
 }
 .help_photo .container a:hover{
     background: #000;
-    color: #FFF;
+    color: #FFFFFF;
 }
 .help_photo .container a:hover:before{
     background-color: #fff;

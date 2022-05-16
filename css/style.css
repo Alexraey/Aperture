@@ -278,7 +278,7 @@ header nav ul li:last-of-type a{
     position: relative;
 }
 .costa_rica .container{
-    max-width: 298px;
+    max-width: 273px;
     margin: inherit;
 }
 .costa_rica .container h3{
@@ -371,7 +371,7 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
 }
 .nepal .container{
-    max-width: 298px;
+    max-width: 260px;
     margin: inherit;
 }
 
@@ -421,6 +421,7 @@ header nav ul li:last-of-type a{
     display: inline-flex;
     text-decoration: none;
     transition: 0.3s;
+    margin-left: 220px;
 }
 .help_photo .container a:before{
     content: "";

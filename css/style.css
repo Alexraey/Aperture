@@ -471,7 +471,7 @@ header nav ul li:last-of-type a{
 }
 .footer .container_block .first_block{
     max-width: 440px;
-    margin-right: 270px;
+    margin-right: 390px;
 }
 .footer .container_block .first_block a{
     margin-bottom: 20px;
@@ -516,7 +516,7 @@ footer li{
     max-width: 1168px;
     margin: auto;
 }
-.container_label img{
+.container_label hr{
     margin: 26px 0 36px;
 }
 .container_label h5{
@@ -550,7 +550,8 @@ footer li{
 }
 .container_label input{
     border: none;
-    opacity: 0;
+    outline: none;
+    background: #F9FAFB;
     width: 395px;
 }
 .container_label button{

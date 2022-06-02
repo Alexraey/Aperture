@@ -308,7 +308,7 @@ header nav ul li:last-of-type a{
     padding-top: 113px;
     padding-bottom: 140px;
     background-size: cover;
-    display: flex;
+    /*display: flex;*/
 }
 .clients .container h3{
     font-family: 'Poppins';
@@ -331,12 +331,15 @@ header nav ul li:last-of-type a{
     margin-bottom: 82px;
 }
 .link_clients{
+    flex-basis: 1200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.margin_clients{
+/*.margin_clients{
     margin-right: 109px;
-}
+}*/
+
 
 
 /*section_6*/
@@ -578,4 +581,35 @@ footer li{
 .margin_a{
     margin-right: 23px;
 }
+
+
+/*carousel*/
+
+
+.owl-dots .owl-dot.active span{
+    display: inline-block;
+    background-color: white!important;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.owl-dots .owl-dot span{
+    display: inline-block;
+    background-color: darkgray!important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.owl-dots {
+    position: absolute;
+    bottom: -68px;
+    left: 567px;
+}
+
+
 

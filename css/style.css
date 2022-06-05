@@ -147,6 +147,7 @@ header nav ul li:last-of-type a{
     font-size: 23px;
     line-height: 30px;
     color: #C0C0C0;
+    margin-bottom: 30px;
 }
 .text-center{
     text-align: center;
@@ -610,6 +611,37 @@ footer li{
     position: absolute;
     bottom: -68px;
     left: 567px;
+}
+
+
+/*accordion*/
+
+
+.ui-accordion .ui-accordion-content {
+    padding: 0;
+    border-top: 0;
+    display: flex;
+}
+.ui-widget-content {
+    border: none;
+    background: transparent;
+}
+.ui-accordion .ui-accordion-header {
+    display: inline-block;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: none;
+    background: transparent;
+    color: darkgray;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    color: white;
+}
+.ui-helper-reset {
+    text-align: center;
+}
+.ui-widget {
+    font-family: Dancing Script;
 }
 
 
